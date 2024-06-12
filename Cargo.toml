@@ -2,7 +2,8 @@
 name = "rust_image"
 version = "0.1.0"
 authors = ["Jim Fulton <jim@jimfulton.info>"]
+edition = "2021"
 
 [dependencies]
-image = "0.14.0"
-rayon = "0.8.2"
+image = "0.25.1"
+rayon = "1.10.0"
